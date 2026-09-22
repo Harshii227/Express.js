@@ -59,7 +59,7 @@ app.delete('/users/:id', (req, res) => {
 
     users.splice(index, 1);
 
-    res.json({ message: 'User deleted successfully' });
+    res.json({ message: 'User deleted successfullyy' });
 });
 
 app.listen(PORT, () => {
