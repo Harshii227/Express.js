@@ -42,7 +42,7 @@ app.patch('/user/:id', (req, res)=> {
         return res.status(404).json({message:'user not found'});
     }
 
-    users[index] = {...users[indes],...PORT.req.body};
+    users[index] = {...users[Indes],...PORT.req.body};
     res.json(users[index]
 
     )
